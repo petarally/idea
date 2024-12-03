@@ -1,0 +1,26 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@vueuse/firebase": "^10.11.1",
+    "axios": "^1.7.4",
+    "firebase": "^10.12.5",
+    "nodemailer": "^6.9.16",
+    "nuxt": "^3.12.4",
+    "nuxt-easy-lightbox": "^1.0.2",
+    "nuxt-vuefire": "^1.0.3",
+    "vue": "latest"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^6.12.1",
+    "@types/google.maps": "^3.58.1"
+  }
+}
